@@ -256,7 +256,7 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Altamira")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
@@ -429,7 +429,7 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Ciudad Mante")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
@@ -602,7 +602,7 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Nuevo Laredo")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
@@ -776,7 +776,7 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Heroica Matamoros")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
@@ -949,7 +949,7 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Reynosa")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
@@ -1121,7 +1121,8 @@ loc <- rgeomex::extract_locality(cve_edo = "28",
                                  locality = "Ciudad Madero")
 
 # Step 2. Extract the hotspots ####
-hotspots <- hotspotsdata::den_hotspots[loc, ]
+hotspots <- hotspotsdata::hotspots_hex[loc, ]
+
 mapview::mapview(hotspots,
                  zcol = "intensity_gi",
                  layer.name = "Intensidad",
